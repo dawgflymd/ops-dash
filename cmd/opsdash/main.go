@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"os"
-	"github.com/charmbracelet/bubbletea"
-	"opsdash/tui"
 	"opsdash/db"
+	"opsdash/tui"
+	"os"
+
+	"github.com/charmbracelet/bubbletea"
 )
 
 func main() {
